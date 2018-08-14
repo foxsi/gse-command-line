@@ -56,7 +56,7 @@ char *argv[ ];
 //      if((S_IFREG & mystat.st_mode) == 0) ttyout = 1;
         ttyout = isatty(fileno(stdout));
 
-		printf("Clearing formatter commands");
+		printf("Clearing formatter commands\n");
 		cmd[0] = 0x0;
 		cmd[1] = 0x0;
 		cmd[2] = 0x0;
